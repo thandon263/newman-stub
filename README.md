@@ -21,7 +21,7 @@ This is very useful if you are planning to run multiple collections at once.
 Install the module using `npm install newman-stub` andd then import the module into any folder on your computer and implement the `newman-stub` module to help with your automation for api-level unit tests. Spend at least a few minutes
 Looking at the code and just add your `options`
 
-```JavaScript
+```javascript
 
     const NMR = require('newman-stub') // for Node_js
 
@@ -35,7 +35,7 @@ Looking at the code and just add your `options`
 When you are working with newman runner, I guess you should have atleast written some tests in your collection.
 So before you import your collection write some tests inside postman. When you are done writing test import the collection and add other options to your object and then run the project.
 
-```JavaScript
+```javascript
 
     const options = {
         collection: require('example/collection.json'),
