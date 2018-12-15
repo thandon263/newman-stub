@@ -1,6 +1,6 @@
 {
   "name": "newman-stub",
-  "version": "1.0.0",
+  "version": "2.0.1",
   "description": "This is a newman test runner for comparing api response data to stub examples.",
   "main": "index.js",
   "scripts": {
