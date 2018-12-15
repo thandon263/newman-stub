@@ -15,4 +15,4 @@
  */
 
 const NMR = require('./newman/automation-runner')
-exports = NMR
+module.exports = NMR
