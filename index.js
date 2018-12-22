@@ -1,4 +1,4 @@
-
+const NMR = require('./newman/automation-runner')
 /**
  * @description - Newman is a command line Collection Runner for Postman. 
  * It allows you to run and test a Postman Collection directly from the command line. 
@@ -11,8 +11,8 @@
  * This is very useful if you are planning to run multiple collections at once.
  * 
  * @author Thando Ncube
- * 
+ * @param {Object} options
+ * @return Summary
  */
 
-const NMR = require('./newman/automation-runner')
 module.exports = NMR

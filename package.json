@@ -1,9 +1,10 @@
 {
   "name": "newman-stub",
-  "version": "2.0.2",
+  "version": "2.1.0",
   "description": "This is a newman test runner for comparing api response data to stub examples.",
   "main": "index.js",
   "scripts": {
+    "start": "node index",
     "test": "mocha"
   },
   "repository": {
@@ -25,7 +26,8 @@
   },
   "homepage": "https://github.com/thandon263/newman-stub#readme",
   "dependencies": {
-    "newman": "^4.2.2"
+    "newman": "^4.2.2",
+    "newman-reporter-html": "^1.0.2"
   },
   "devDependencies": {
     "coveralls": "^3.0.2",

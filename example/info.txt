@@ -1,0 +1,11 @@
+"body": {
+    "mode": "formdata",
+    "formdata": [
+        {
+            "key": "foo",
+            "value": "",
+            "type": "text",
+            "enabled": true
+        }
+    ]
+},

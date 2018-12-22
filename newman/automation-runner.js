@@ -10,7 +10,7 @@ module.exports = {
      *      `reporters`, `environment`, `collection`, `timeoutRequest` etc.
      * @param {Object} options  
      * @return {void} `reports` 
-     * @author Thando Ncube
+     * @author dev36T
      * @example
      *      options = {
      *          collection: "/path/to/collection.json",
@@ -27,9 +27,10 @@ module.exports = {
         })
         .on(DONE, function(err, summary) {
             try {
-                console.log(summary)
+                // more work to do
+                return summary
             } catch (err) {
-                console.error(err)
+                return err
             }
         })
     }
