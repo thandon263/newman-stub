@@ -1,6 +1,6 @@
 {
   "name": "newman-stub",
-  "version": "2.1.0",
+  "version": "2.2.1",
   "description": "This is a newman test runner for comparing api response data to stub examples.",
   "main": "index.js",
   "scripts": {
@@ -17,7 +17,8 @@
     "api-tests",
     "unit-testing",
     "test-automation",
-    "automation"
+    "automation",
+    "api-response"
   ],
   "author": "Thando Ncube",
   "license": "ISC",
