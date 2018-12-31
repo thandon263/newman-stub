@@ -1,3 +1,7 @@
+#!/usr/bin/env node
+
+"use strict"
+
 const newman = require("newman");
 const fs = require("fs");
 const path = require("path");
