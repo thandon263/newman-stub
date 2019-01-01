@@ -35,16 +35,14 @@ module.exports = {
       .on(DONE, function(err, summary) {
         try {
           // more work to do
-          fs.mkdirSync(path.join(__dirname, "../../responses"));
+          fs.mkdirSync(path.join("responses"));
           // Extract data stream from API
           let summaryObj = summary.run.executions[0].response.stream.toString();
         
-          const filepath = `../../responses/json-response-${new Date()}.json`;  
-          fs.writeFile(filepath, summaryObj, "utf-8", function(err, data) {
-            if (err) {
-              process.stdout.write("Failing to run!");
-              throw err;
-            }
+          let filepath = `responses/json-response-${new Date()}.json`;  
+          
+          fs.writeFile(filepath, summaryObj, { encoding: 'utf8' }, function(err, data) {
+            if (err) throw err
             process.stdout.write(
               "Created Response file.",
               "\nPath to Latest Response: ",
