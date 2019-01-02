@@ -4,7 +4,7 @@ Newman is a command line Collection Runner for Postman.
 It allows you to run and test a Postman Collection directly from the command line. 
 It is built with extensibility in mind so that you can easily integrate it with your continuous integration servers and build systems. 
 
-![](https://img.shields.io/node/v/newman.svg?style=for-the-badge) ![](https://img.shields.io/npm/l/m.svg?style=for-the-badge) ![](https://img.shields.io/npm/collaborators/newman.svg?style=for-the-badge)
+![](https://img.shields.io/node/v/newman.svg?style=for-the-badge) ![](https://img.shields.io/npm/l/m.svg?style=for-the-badge)
 
 
 
